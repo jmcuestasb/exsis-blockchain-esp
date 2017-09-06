@@ -256,4 +256,83 @@ V:
 V:
 
 ### Some code
+Let’s look at how transferring a marble is done by starting at the chaincode: 
+/chaincode/marbles.go
 
+<section>
+  <pre><code data-trim>
+type Marble struct {
+        ObjectType string        `json:"docType"`
+        Id       string          `json:"id"`
+        Color      string        `json:"color"`
+        Size       int           `json:"size"`
+        Owner      OwnerRelation `json:"owner"`
+    }
+  </code></pre>
+</section>
+
+V:
+### Some code
+This set_owner() function will change the owner of a particular marble:
+
+/chaincode/write_ledger.go
+<section>
+  <pre><code data-trim>
+func set_owner(stub shim.ChaincodeStubInterface, args []string) pb.Response {
+        var err error
+        fmt.Println("starting set_owner")
+
+        // this is quirky
+        // todo - get the "company that authed the transfer" from the certificate instead of an argument
+        // should be possible since we can now add attributes to the enrollment cert
+        // as is.. this is a bit broken (security wise), but it's much much easier to demo! holding off for demos sake
+
+        if len(args) != 3 {
+            return shim.Error("Incorrect number of arguments. Expecting 3")
+        }
+
+        // input sanitation
+        err = sanitize_arguments(args)
+        if err != nil {
+            return shim.Error(err.Error())
+        }
+
+        var marble_id = args[0]
+        var new_owner_id = args[1]
+        var authed_by_company = args[2]
+        fmt.Println(marble_id + "->" + new_owner_id + " - |" + authed_by_company)
+
+        // check if user already exists
+        owner, err := get_owner(stub, new_owner_id)
+        if err != nil {
+            return shim.Error("This owner does not exist - " + new_owner_id)
+        }
+
+        // get marble's current state
+        marbleAsBytes, err := stub.GetState(marble_id)
+        if err != nil {
+            return shim.Error("Failed to get marble")
+        }
+        res := Marble{}
+        json.Unmarshal(marbleAsBytes, &res)           //un stringify it aka JSON.parse()
+
+        // check authorizing company
+        if res.Owner.Company != authed_by_company{
+            return shim.Error("The company '" + authed_by_company + "' cannot authorize transfers for '" + res.Owner.Company + "'.")
+        }
+
+        // transfer the marble
+        res.Owner.Id = new_owner_id                   //change the owner
+        res.Owner.Username = owner.Username
+        res.Owner.Company = owner.Company
+        jsonAsBytes, _ := json.Marshal(res)           //convert to array of bytes
+        err = stub.PutState(args[0], jsonAsBytes)     //rewrite the marble with id as key
+        if err != nil {
+            return shim.Error(err.Error())
+        }
+
+        fmt.Println("- end set owner")
+        return shim.Success(nil)
+    }
+  </code></pre>
+</section>
