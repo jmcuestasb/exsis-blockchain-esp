@@ -246,7 +246,7 @@ Chaincode: Chaincode is Hyperledger Fabric speak for smart contracts. It defines
 
 V:
 ### gRPC
-
+ Is an open source remote procedure call (RPC) system initially developed at Google. 
 
 V:
 ### How it works?
