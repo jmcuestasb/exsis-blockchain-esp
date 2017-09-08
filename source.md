@@ -118,7 +118,7 @@ V:
 
 * Healthcare.
 * Internet of things (IoT).
-* Energy provision and mManagement.
+* Energy provision and management.
 * Gun Tracking.
 * Background Checks And Employment Verification
 * Many others...
