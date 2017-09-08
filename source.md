@@ -124,9 +124,11 @@ V:
 * Many others...
 
 V:
+### A TED TALK ABOUT IT
 
+<iframe width="800" height="600" src="https://www.youtube.com/embed/RplnSVTzvnU" frameborder="0" allowfullscreen></iframe>
 
-
+V:
 ### Must-Read Links
 
 
@@ -168,8 +170,21 @@ V:
 <img src="src/ibmblockchainhyperledger.png" alt="3d scaling" width="40%" style="float: center">
 
  IBM provides blockchain solutions and services leveraging Hyperledger technologies, including Hyperledger Fabric and Hyperledger Composer.
+V:
+### Blockchain for business
+
+<iframe width="800" height="600" src="https://www.youtube.com/embed/EKa5Gh9whgU" frameborder="0" allowfullscreen></iframe>
 
 
+
+V:
+### Must-Read Links
+
+* <a href="https://www.bbva.com/es/bbva-se-une-hyperledger-la-principal-comunidad-open-source-blockchain/" target="_blank">BBVA joins Hyperledger</a>
+* <a href="https://cointelegraph.com/news/oracle-officially-joins-hyperledger-blockchain-project" target="_blank">Oracle Officially Joins Hyperledger Blockchain Project
+</a>
+* <a href="https://criptonoticias.com/adopcion/visa-ibm-usaa-microsoft-buscan-desarrolladores-blockchain-nuevos-proyectos/#axzz4s3jh6SQd" target="_blank">Visa, IBM, USAA and Microsoft seek blockchain developers for new projects
+</a>
 
 
 H:
@@ -178,7 +193,7 @@ H:
 # 3. Smart Contracts
 
 V: 
-### What is a Smart COntract?
+### What is a Smart Contract?
 
 <img src="src/contract.jpg" alt="3d scaling" width="40%" style="float: center">
 
@@ -187,6 +202,17 @@ Is a computer program that directly controls the transfer of digital currencies 
 V:
 ### How a Smart Contract works?
 <img src="src/smart_contracts.jpg" alt="3d scaling" width="60%" style="float: center">
+
+V:
+### putting it all together
+<iframe width="800" height="600" src="https://www.youtube.com/embed/FkeLDPZ-v8g" frameborder="0" allowfullscreen></iframe>
+
+V:
+### Must-Read Links
+* <a href="https://blockgeeks.com/guides/smart-contracts/" target="_blank">A Beginner’s Guide to Smart Contracts</a>
+* <a href="https://www.coindesk.com/information/ethereum-smart-contracts-work/" target="_blank">How Do Ethereum Smart Contracts Work?</a>
+* <a href="https://www.adjoint.io/posts/financial-industry-revolution.html" target="_blank">Smart Contracts - A revolution in the Financial industry</a>
+
 
 
 H: 
@@ -248,6 +274,7 @@ V:
 ### gRPC
  Is an open source remote procedure call (RPC) system initially developed at Google. 
 
+<img src="src/grpc.png" width="55%" height style="float: center">
 V:
 ### How it works?
 
@@ -336,11 +363,12 @@ func set_owner(stub shim.ChaincodeStubInterface, args []string) pb.Response {
     }
   </code></pre>
 </section>
-V: 
-### Some Code
-From: /utils/websocket_server_side.js
-This snippet of process_msg() receives all websocket messages (code found in app.js). It will detect what type of ws (websocket) message was sent:
 
+
+H:
+### Some code
+This snippet of process_msg() receives all websocket messages (code found in app.js). It will detect what type of ws (websocket) message was sent. 
+From: /utils/websocket_server_side.js
 <section>
   <pre><code data-trim>
     //process web socket messages
@@ -394,12 +422,12 @@ This snippet of process_msg() receives all websocket messages (code found in app
   </code></pre>
 </section>
 V:
-### Some Code
+### Some code
+The important parts are that it is setting the proposal's invocation function name to "set_owner" with the line fcn: 'set_owner'
 From: /utils/marbles_cc_lib.js
- The important parts are that it is setting the proposal's invocation function name to "set_owner" with the line fcn: 'set_owner':
- <section>
+<section>
   <pre><code data-trim>
-    //-------------------------------------------------------------------
+ //-------------------------------------------------------------------
     // Set Marble Owner 
     //-------------------------------------------------------------------
     marbles_chaincode.set_marble_owner = function (options, cb) {
@@ -426,13 +454,16 @@ From: /utils/marbles_cc_lib.js
         ...
   </code></pre>
 </section>
-V:
+H:
 ### Some Code
+Now let’s look 1 more step up to how we sent this websocket message from the UI.
+
 From: /public/js/ui_building.js
-In the first section referencing $('.innerMarbleWrap') you can see we used jQuery and jQuery-UI to implement the drag and drop functionality. With this code we get a droppable event trigger. 
+
+
 <section>
   <pre><code data-trim>
-    $('.innerMarbleWrap').droppable({drop:
+      $('.innerMarbleWrap').droppable({drop:
         function( event, ui ) {
             var marble_id = $(ui.draggable).attr('id');
 
@@ -455,7 +486,6 @@ In the first section referencing $('.innerMarbleWrap') you can see we used jQuer
             }
         }
     });
-
     ...
 
     function transfer_marble(marbleName, to_username, to_company){
@@ -473,3 +503,23 @@ In the first section referencing $('.innerMarbleWrap') you can see we used jQuer
     }
   </code></pre>
 </section>
+
+V: 
+### Try it YOURSELF
+* <a href="https://github.com/IBM-Blockchain/marbles" target="_blank">Github IBM Marbles Repository</a>
+
+
+
+H:
+# 5. DEVELOP TOOLS FOR BLOCKCHAIN
+V:
+### IBM Tools: 
+* <a href="https://ibm-blockchain.github.io/" target="_blank">IBM Blockchain.</a>
+* <a href="https://developer.ibm.com/blockchain/" target="_blank">Blockchain Developer Center.</a>
+* <a href="https://github.com/IBM-Blockchain/ibm-container-service" target="_blank">IBM Blockchain Platform for Developers on IBM Container Service.</a>
+* <a href="https://github.com/IBM-Blockchain/docker-images" target="_blank">Docker images for deploying and running the IBM Blockchain Platform.</a>
+* <a href="https://github.com/IBM-Blockchain/JSDKIntegrationSample" target="_blank">Hyperledger Fabric Java SDK integration with IBM Blockchain sample.</a>
+* <a href="https://www.ibm.com/blockchain/hyperledger.html" target="_blank">Hyperledger.</a>
+
+
+
