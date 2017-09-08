@@ -336,3 +336,140 @@ func set_owner(stub shim.ChaincodeStubInterface, args []string) pb.Response {
     }
   </code></pre>
 </section>
+V: 
+### Some Code
+From: /utils/websocket_server_side.js
+This snippet of process_msg() receives all websocket messages (code found in app.js). It will detect what type of ws (websocket) message was sent:
+
+<section>
+  <pre><code data-trim>
+    //process web socket messages
+    ws_server.process_msg = function (ws, data) {
+        const channel = helper.getChannelId();
+        const first_peer = helper.getFirstPeerName(channel);
+        var options = {
+            peer_urls: [helper.getPeersUrl(first_peer)],
+            ws: ws,
+            endorsed_hook: endorse_hook,
+            ordered_hook: orderer_hook
+        };
+        if (marbles_lib === null) {
+            logger.error('marbles lib is null...');             //can't run in this state
+            return;
+        }
+
+        // create a new marble
+        if (data.type == 'create') {
+            logger.info('[ws] create marbles req');
+            options.args = {
+                color: data.color,
+                size: data.size,
+                marble_owner: data.username,
+                owners_company: data.company,
+                owner_id: data.owner_id,
+                auth_company: process.env.marble_company,
+            };
+
+            marbles_lib.create_a_marble(options, function (err, resp) {
+                if (err != null) send_err(err, data);
+                else options.ws.send(JSON.stringify({ msg: 'tx_step', state: 'finished' }));
+            });
+        }
+
+        // transfer a marble
+        else if (data.type == 'transfer_marble') {
+            logger.info('[ws] transferring req');
+            options.args = {
+                marble_id: data.id,
+                owner_id: data.owner_id,
+                auth_company: process.env.marble_company
+            };
+
+            marbles_lib.set_marble_owner(options, function (err, resp) {
+                if (err != null) send_err(err, data);
+                else options.ws.send(JSON.stringify({ msg: 'tx_step', state: 'finished' }));
+            });
+        }
+        ...
+  </code></pre>
+</section>
+V:
+### Some Code
+From: /utils/marbles_cc_lib.js
+ The important parts are that it is setting the proposal's invocation function name to "set_owner" with the line fcn: 'set_owner':
+ <section>
+  <pre><code data-trim>
+    //-------------------------------------------------------------------
+    // Set Marble Owner 
+    //-------------------------------------------------------------------
+    marbles_chaincode.set_marble_owner = function (options, cb) {
+        console.log('');
+        logger.info('Setting marble owner...');
+
+        var opts = {
+            channel_id: g_options.channel_id,
+            chaincode_id: g_options.chaincode_id,
+            chaincode_version: g_options.chaincode_version,
+            event_url: g_options.event_url,
+            endorsed_hook: options.endorsed_hook,
+            ordered_hook: options.ordered_hook,
+            cc_function: 'set_owner',
+            cc_args: [
+                options.args.marble_id,
+                options.args.owner_id,
+                options.args.auth_company
+            ],
+            peer_tls_opts: g_options.peer_tls_opts,
+        };
+        fcw.invoke_chaincode(enrollObj, opts, cb);
+    };
+        ...
+  </code></pre>
+</section>
+V:
+### Some Code
+From: /public/js/ui_building.js
+In the first section referencing $('.innerMarbleWrap') you can see we used jQuery and jQuery-UI to implement the drag and drop functionality. With this code we get a droppable event trigger. 
+<section>
+  <pre><code data-trim>
+    $('.innerMarbleWrap').droppable({drop:
+        function( event, ui ) {
+            var marble_id = $(ui.draggable).attr('id');
+
+            //  ------------ Delete Marble ------------ //
+            if($(event.target).attr('id') === 'trashbin'){
+                // [removed code for brevity]
+            }
+
+            //  ------------ Transfer Marble ------------ //
+            else{
+                var dragged_owner_id = $(ui.draggable).attr('owner_id');
+                var dropped_owner_id = $(event.target).parents('.marblesWrap').attr('owner_id');
+
+                console.log('dropped a marble', dragged_owner_id, dropped_owner_id);
+                if (dragged_owner_id != dropped_owner_id) {
+                $(ui.draggable).addClass('invalid bounce');
+                    transfer_marble(marble_id, dropped_owner_id);
+                    return true;
+                }
+            }
+        }
+    });
+
+    ...
+
+    function transfer_marble(marbleName, to_username, to_company){
+        show_tx_step({ state: 'building_proposal' }, function () {
+            var obj = {
+                type: 'transfer_marble',
+                id: marbleId,
+                owner_id: to_owner_id,
+                v: 1
+            };
+            console.log(wsTxt + ' sending transfer marble msg', obj);
+            ws.send(JSON.stringify(obj));
+            refreshHomePanel();
+        });
+    }
+  </code></pre>
+</section>
