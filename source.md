@@ -153,13 +153,14 @@ V:
 V:
 ## Gun Tracking
 
-<img src="src/guns.jpg" width="50%" height style="float: center">
+<a href="https://www.blocksafe.network/" target="_blank"><img src="src/guns.jpg" width="50%" height style="float: center">
 
 
 V:
 ## Background Checks And Employment Verification (CV)
-<img src="src/cv.jpg" width="30%" height style="float: up">
-<a href="https://appii.io/build-verified-cv-blockchain/" target="_blank"><img src="src/appii.png" width="30%" height style="float: down">
+<img src="src/cv.jpg" width="15%" height style="float: center">
+
+<a href="https://appii.io/build-verified-cv-blockchain/" target="_blank"><img src="src/appii.jpg" width="30%" height style="float: center">
 
 V:
 ## TRANSPORT
@@ -270,14 +271,16 @@ V:
 ### Supply Chain
 
 Is difficult for consumers to know whether some parts of the products were produced
-by illegal child labour, or within a country where conflicting mineral issues occur. Such a lack of transparency in the supply chain or logistics becomes more critical when it comes topharmaceutical or medical industries in which illegale or fraud medications can lead to fatal consequences (IBM 2016).
+by illegal child labour, or within a country where conflicting mineral issues occur. Such a lack of transparency in the supply chain or logistics becomes more critical when it comes topharmaceutical or medical industries in which illegale or fraud medications can lead to fatal consequences.
 <img src="src/niños.jpg" alt="3d scaling" width="30%" style="float: center">
 
 V:
 ### Supply Chain
 
 Blockchain technology on supply chain has the potential to increase supply chain transparency for both suppliers and consumer, and improve contractual coordination. The blockchain technology becomes more useful when it combines with the recent IoT technologies such as RFID sensors or QR codes.
-<img src="src/qr.png" alt="3d scaling" width="50%" style="float: center">
+
+
+<a href="https://nektardata.com/a-brief-guide-to-understand-the-difference-between-qr-and-rfid-tags/" target="_blank"><img src="src/qr.png" alt="3d scaling" width="50%" style="float: center">
 
 
 V:
@@ -335,4 +338,11 @@ V:
 <a href="http://col40.co/638/w3-channel.html" target="_blank"><img src="src/col4.jpg" alt="3d scaling" width="60%" style="float: center">
 
 V:
-### BLOCKCHAIN INFLUENCERS
+### Events
+
+<a href="https://www.meetup.com/topics/blockchain/" target="_blank"><img src="src/meetup.png" alt="3d scaling" width="30%" style="float: center">
+
+
+V:
+### Forums
+<a href="https://bitcointalk.org/" target="_blank"><img src="src/bitcointalk.png" alt="3d scaling" width="20%" style="float: center">
