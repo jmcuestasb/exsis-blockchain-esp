@@ -126,7 +126,9 @@ V:
 
 V:
 ## Cryptocurrencies
-<img src="src/monedastop.jpg" width="50%" height style="float: top">
+
+
+<a href="https://blockgeeks.com/guides/what-is-cryptocurrency/" target="_blank"><img src="src/monedastop.jpg" width="50%" height style="float: top">
 
 
 V:
@@ -137,13 +139,15 @@ V:
 Patient’s medical history is a puzzle with its pieces dispersed across multiple providers and organizations. Blockchain could help us assemble all of these pieces in real-time and view the entire picture of a patient’s health. Check this <a href="https://www.forbes.com/sites/forbestechcouncil/2018/04/13/blockchain-in-health-care-the-good-the-bad-and-the-ugly/#17e8dbc96278" target="_blank">Forbes article</a>
 V:
 ## Internet of things
-<img src="src/iot.png" width="60%" height style="float: center">
+
+
+
+<a href="https://medium.com/iotex/blockchains-for-the-iot-c4d828b5a9ed" target="_blank"><img src="src/iot.png" width="60%" height style="float: center">
 
 
 V:
 ## Energy provision and management
-
-<img src="src/energy1.png" width="60%" height style="float: center">
+<a href="https://www.cbinsights.com/research/blockchain-energy-applications/" target="_blank"><img src="src/energy1.png" width="60%" height style="float: center">
 
 
 V:
@@ -159,7 +163,8 @@ V:
 
 V:
 ## TRANSPORT
-<img src="src/transmi.jpg" width="60%" height style="float: up">
+
+<a href="https://coinjoker.com/blockchain-technology-public-transportation/" target="_blank"><img src="src/transmi.jpg" width="60%" height style="float: up">
 
 
 V:
@@ -300,12 +305,11 @@ In order to root out the corruptions occurring on land registries, the governmen
 V:
 ### International Trade
 
-The paper-based documents between trading parties and banks are subject to manipulation, loss and fraud. With
-blockchain, trading parties can manage the ownership of documents and eliminate
+Paper-based documents between trading parties and banks are subject to manipulation, loss and fraud. Blockchain trading parties can manage the ownership of documents and eliminate
 disputes, forgeries and double-spending risks. Smart contract can log the change of
-ownership and automatically transfer payments, which can lead to an
+ownership and automatically transfer payments for
 efficient and transparent way we trade.
-<img src="src/internacional.jpg" alt="3d scaling" width="30%" style="float: up">
+<img src="src/internacional.jpg" alt="3d scaling" width="30%" style="float: down">
 
 
 H:
