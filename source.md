@@ -21,11 +21,9 @@ H:
 
 BLOCKCHAIN TECHNOLOGY
 
-<img src="src/exsislogo.png" alt="3d scaling" width="10%" style="float: center" >
+<a href="http://exsis.co/" target="_blank"><img src="src/exsislogo.png" alt="3d scaling" width="30%" style="float: center">
 
 Exsis Software & Solutions
-
-Juan Manuel Cuestas
 
 
 
@@ -103,7 +101,7 @@ V:
 
 Now a formal definition:
 
-“The blockchain is an incorruptible digital ledger of economic transactions that can be programmed to record not just financial transactions but virtually <a href="https://blockgeeks.com/guides/what-is-blockchain-technology/" target="_blank">everything of value</a>”
+“The blockchain is an incorruptible digital ledger of transactions that can be programmed to record not just financial transactions but virtually <a href="https://blockgeeks.com/guides/what-is-blockchain-technology/" target="_blank">everything of value</a>”
 
 
 V:
@@ -125,6 +123,11 @@ V:
 V:
 
 # Applications
+
+V:
+## Cryptocurrencies
+<img src="src/monedastop.jpg" width="50%" height style="float: top">
+
 
 V:
 ## Healthcare
@@ -259,10 +262,73 @@ V:
 H:
 # 4. FIGHTING CORRUPTION WITH BLOCKCHAIN
 V:
-### .-...:
+### Supply Chain
+
+Is difficult for consumers to know whether some parts of the products were produced
+by illegal child labour, or within a country where conflicting mineral issues occur. Such a lack of transparency in the supply chain or logistics becomes more critical when it comes topharmaceutical or medical industries in which illegale or fraud medications can lead to fatal consequences (IBM 2016).
+<img src="src/niños.jpg" alt="3d scaling" width="30%" style="float: center">
+
+V:
+### Supply Chain
+
+Blockchain technology on supply chain has the potential to increase supply chain transparency for both suppliers and consumer, and improve contractual coordination. The blockchain technology becomes more useful when it combines with the recent IoT technologies such as RFID sensors or QR codes.
+<img src="src/qr.png" alt="3d scaling" width="50%" style="float: center">
+
+
+V:
+### Public sectors / Government
+
+Government and financial institutions can use the technology as a means of combating financial crime such as money laundering and tracking any fund transferred for criminal activities such as drugs trade or terrorism.
+<img src="src/corruption.png" alt="3d scaling" width="40%" style="float: center">
+
+V:
+### Voting System
+
+Elections results may not always reflect the public opinion and it is subject to
+manipulation by a corrupted authority. In such circumstances, the blockchain technology ensures that
+every eligible vote is counted accurately without any manipulation and this can be a huge step
+towards democracy. BLockchain can transform the traditional paper-based voting
+system to a digitalized one.e
+<img src="src/33.jpg" alt="3d scaling" width="30%" style="float: center">
+
+V:
+### Property & real-estate management
+
+In order to root out the corruptions occurring on land registries, the government of Honduras partnered with a blockchain start-up to develop a system that kept the land record on a transparent and unhackable blockchain platform. This may keep the government officials supervised from abusing their power while encouraging land owners to officially register their lands.
+<img src="src/índice.jpg" alt="3d scaling" width="30%" style="float: up">
+
+V:
+### International Trade
+
+The paper-based documents between trading parties and banks are subject to manipulation, loss and fraud. With
+blockchain, trading parties can manage the ownership of documents and eliminate
+disputes, forgeries and double-spending risks. Smart contract can log the change of
+ownership and automatically transfer payments, which can lead to an
+efficient and transparent way we trade.
+<img src="src/internacional.jpg" alt="3d scaling" width="30%" style="float: up">
 
 
 H:
 # 5. BEING PART OF THE REVOLUTION
 V:
-### .-...:
+
+### COMMUNITIES
+
+* Activities to strengthen the community and the actors articulation of the Blockchain and crypto ecosystem in Colombia.
+* Basic training of the Blockchain technology.
+* Be an interlocutor with the national government, offering information and analysis that allows you to make informed decisions for the use of Blockchain technology and cryptocurrencies in Colombia
+
+<a href="https://fundacionblockchaincolombia.org/" target="_blank"><img src="src/bcol.png" alt="3d scaling" width="60%" style="float: center">
+
+
+V:
+<a href="https://blockchainacademy.com.co/" target="_blank"><img src="src/bcacademy.jpg" alt="3d scaling" width="40%" style="float: center" >
+
+
+V:
+### Events
+
+<a href="http://col40.co/638/w3-channel.html" target="_blank"><img src="src/col4.jpg" alt="3d scaling" width="60%" style="float: center">
+
+V:
+### BLOCKCHAIN INFLUENCERS
