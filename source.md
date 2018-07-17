@@ -19,43 +19,42 @@
 
 H:
 
-BLOCKCHAIN TECHNOLOGY
+TECNOLOGÍA BLOCKCHAIN
 
 <a href="http://exsis.co/" target="_blank"><img src="src/exsislogo.png" alt="3d scaling" width="30%" style="float: center">
 
-Exsis Software & Solutions
+Exsis Software & Soluciones
 
 
 
 
 H:
 
-## Index
+## Contenido
 
- 1. Understanding Blockchain<!-- .element: class="fragment" data-fragment-index="1"-->
-    * The General Ledger
-    * The Meaning of Decentralization
-    * So, what is Blockchain?
-    * Where is the blockchain's power?
-    * Blockchain future
-    * Examples
-    * Applications
-
+ 1. Entendiendo Blockchain<!-- .element: class="fragment" data-fragment-index="1"-->
+    * El Libro Mayor
+    * El significado de la Descentralización
+    * ¿Qué es Blockchain?
+    * ¿Dónde está el potencial de Blockchain?
+    * Blockchain a futuro
+    * Ejemplos
+    * Aplicaciones
 
 
 V:
-## Index (part 2)
+## Contenido (parte 2)
 
  2. Hyperledger <!-- .element: class="fragment" data-fragment-index="2"-->
-    * What is Hyperledger?
+    * Qué es Hyperledger?
     * Hyperledger Fabric
- 3. Smart Contracts<!-- .element: class="fragment" data-fragment-index="3"-->
+ 3. Contratos Inteligentes<!-- .element: class="fragment" data-fragment-index="3"-->
 
 V:
-## Index (part 3)
-4. Fighting Corruption with Blockchain
-5. Being Part of the Revolution
-6. Issues with Blockchain
+## Contenido (parte 3)
+4. Combatiendo la corrupción con Blockchain
+5. ¿Cómo ser parte de la revolución?
+
 
 
 
@@ -64,15 +63,15 @@ V:
 
 H:
 
-# 1. Understanding Blockchain
+# 1. Entendiendo Blockchain
 
 
 
 V:
-### The General Ledger
+### El Libro Mayor
 <img src="src/general_ledger.jpg" width="40%" height style="float: center">
 
-A general ledger is a company's set of numbered accounts for its accounting records. The ledger provides a complete record of financial transactions over the life of the company.
+El libro mayor proporciona un registro completo de las transacciones financieras a lo largo de la vida de una empresa, lleva el conjunto de cuentas numeradas de una empresa para sus registros contables.
 
 V:
 ### The Meaning of Decentralization
@@ -85,23 +84,22 @@ V:
 “distributed means not all the processing of the transactions is done in the same place”, whereas “decentralized means that not one single entity has control over all the processing”
 
 V:
-### The Meaning of Decentralization
+### El significado de la Descentralización
 <img src="src/trust_evolution.jpg" width="50%" height style="float: center">
 
 V:
-### So, what is Blockchain?
+### ¿Qué es Blockchain?
 
 <img src="src/blockchain.jpg" width="45%" height style="float: center">
 
-Let's start by saying that it is a distributed general ledger of digital transformation
+Empecemos por decir que es el libro mayor y distribuido de la transformación digital.
 
 V:
 
-### So, what is BLockchain?
+### ¿Qué es Blockchain?
 
-Now a formal definition:
-
-“The blockchain is an incorruptible digital ledger of transactions that can be programmed to record not just financial transactions but virtually <a href="https://blockgeeks.com/guides/what-is-blockchain-technology/" target="_blank">everything of value</a>”
+Ahora una definición formal:
+"Blockchain es un libro mayor digital  e incorruptible de transacciones que pueden ser programadas para registrar no sólo transacciones financieras sino los movimientos de <a href="https://blockgeeks.com/guides/what-is-blockchain-technology/" target="_blank">todo lo que consideremos de valor</a>"
 
 
 V:
