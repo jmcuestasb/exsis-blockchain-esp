@@ -99,15 +99,18 @@ V:
 ### ¿Qué es Blockchain?
 
 Ahora una definición formal:
-"Blockchain es un libro mayor digital  e incorruptible de transacciones que pueden ser programadas para registrar no sólo transacciones financieras sino los movimientos de <a href="https://blockgeeks.com/guides/what-is-blockchain-technology/" target="_blank">todo lo que consideremos de valor</a>"
+"Blockchain es un libro mayor digital e incorruptib<le de transacciones que pueden ser programadas para registrar no sólo transacciones financieras sino los movimientos de <a href="https://blockgeeks.com/guides/what-is-blockchain-technology/" target="_blank">todo lo que consideremos de valor</a>"
 
 
 V:
 
-### Where is the blockchain's power?
+### ¿Dónde está el potencial de Blockchain?
 
 <img src="src/trust_tax.jpg" alt="3d scaling" width="35%" style="float: right">
 
+Una cuestión de confianza:
+
+Blockchain asegura la integridad de los datos junto con carácterísticas de autenticidad que pueden garantizar la confianza entre las partes que no son de confianza mientras realizan transacciones digitales. Y eso abre un mundo de posibilidades.
 
 
 A matter of trust: As a distributed, decentralized ledger, blockchain contains data integrity and authenticity characteristics that can guarantee trust among untrusted parties as they conduct digital transactions. And that opens up a world of possibilities.
