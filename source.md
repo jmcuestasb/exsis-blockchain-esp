@@ -110,78 +110,77 @@ V:
 
 Una cuestión de confianza:
 
-Blockchain asegura la integridad de los datos junto con carácterísticas de autenticidad que pueden garantizar la confianza entre las partes que no son de confianza mientras realizan transacciones digitales. Y eso abre un mundo de posibilidades.
+Blockchain asegura la integridad de los datos junto con características de autenticidad mediante mecanismos de criptografía avanzada que pueden garantizar la confianza entre los miembros de la blockchain mientras realizan transacciones digitales, lo que abre un mundo de posibilidades.
 
 
-A matter of trust: As a distributed, decentralized ledger, blockchain contains data integrity and authenticity characteristics that can guarantee trust among untrusted parties as they conduct digital transactions. And that opens up a world of possibilities.
 
 V:
 
-### Blockchain Future
+### El Futuro de Blockchain
 
 <img src="src/futureblock.jpg" width="50%" height style="float: center">
 
 V:
 
-# Applications
+# Aplicaciones
 
 V:
-## Cryptocurrencies
+## Criptomonedas
 
 
 <a href="https://blockgeeks.com/guides/what-is-cryptocurrency/" target="_blank"><img src="src/monedastop.jpg" width="50%" height style="float: top">
 
 
 V:
-## Healthcare
+## Salud
+<a href="https://www.forbes.com/sites/forbestechcouncil/2018/04/13/blockchain-in-health-care-the-good-the-bad-and-the-ugly/#17e8dbc96278" target="_blank"><img src="src/healthcare.png" width="40%" height style="float: top">
 
-<img src="src/healthcare.png" width="40%" height style="float: up">
+El historial médico de un paciente en la actualidad es un rompecabezas que se distribuye entre múltiples proovedores, organizaciones y profesionales de la salud. Blockchain puede ayudar a poner estas piezas juntas para tener un panorama completo de la salud de un paciente
 
-Patient’s medical history is a puzzle with its pieces dispersed across multiple providers and organizations. Blockchain could help us assemble all of these pieces in real-time and view the entire picture of a patient’s health. Check this <a href="https://www.forbes.com/sites/forbestechcouncil/2018/04/13/blockchain-in-health-care-the-good-the-bad-and-the-ugly/#17e8dbc96278" target="_blank">Forbes article</a>
+
 V:
-## Internet of things
-
+## Internet de las Cosas
 
 
 <a href="https://medium.com/iotex/blockchains-for-the-iot-c4d828b5a9ed" target="_blank"><img src="src/iot.png" width="60%" height style="float: center">
 
 
 V:
-## Energy provision and management
+## Provisión y gestión de energía
 <a href="https://www.cbinsights.com/research/blockchain-energy-applications/" target="_blank"><img src="src/energy1.png" width="60%" height style="float: center">
 
 
 V:
-## Gun Tracking
+## Rastreo de Armas
 
 <a href="https://www.blocksafe.network/" target="_blank"><img src="src/guns.jpg" width="50%" height style="float: center">
 
 
 V:
-## Background Checks And Employment Verification (CV)
+## Contratación (CV)
 <img src="src/cv.jpg" width="15%" height style="float: center">
 
 <a href="https://appii.io/build-verified-cv-blockchain/" target="_blank"><img src="src/appii.jpg" width="30%" height style="float: center">
 
 V:
-## TRANSPORT
+## TRANSPORTE
 
 <a href="https://coinjoker.com/blockchain-technology-public-transportation/" target="_blank"><img src="src/transmi.jpg" width="60%" height style="float: up">
 
 
 V:
-## Many others
+## Muchas Otras
 
 <a href="https://cryptobriefing.com/an-a-z-of-blockchain-use-cases/" target="_blank"><img src="src/andmore.png" width="50%" height style="float: center">
 
 
 V:
-### A TED TALK ABOUT IT
+### Una Charla al respecto...
 
 <iframe width="800" height="600" src="https://www.youtube.com/embed/RplnSVTzvnU" frameborder="0" allowfullscreen></iframe>
 
 V:
-### Must-Read Links
+### Enlaces de interés
 
 
 * <a href="https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274" target="_blank">Decentralization</a>
@@ -197,10 +196,11 @@ V:
 
 H: # 2. Hyperledger
 V:
-### Whats is Hyperledger?
+### ¿Qué es Hyperledger?
 
 <img src="src/hyper.png" alt="3d scaling" width="35%" style="float: right">
-Is an open source collaborative effort created to advance cross-industry blockchain technologies. It is a global collaboration, hosted by The Linux Foundation, including leaders in finance, banking, Internet of Things, supply chains, manufacturing and Technology.
+
+Hyperledger es un proyecto de código abierto nacido en diciembre de 2015 y albergado en la Linux Foundation. Nació con el objetivo de crear un ecosistema centrado en crear soluciones de código abierto en el ámbito corporativo con DLTs (Distributed Ledger Technology, otro nombre para Blockchains privadas) y en la práctica por ahora se está centrando en el desarrollo de tecnología blockchain privada para corporaciones.
 V:
 
 ### Hyperledger Fabric
