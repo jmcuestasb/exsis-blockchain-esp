@@ -160,7 +160,7 @@ V:
 ## Contratación (CV)
 <img src="src/cv.jpg" width="15%" height style="float: center">
 
-<a href="https://appii.io/build-verified-cv-blockchain/" target="_blank"><img src="src/appii.jpg" width="30%" height style="float: center">
+<a href="https://appii.io/build-verified-cv-blockchain/" target="_blank"><img src="src/cvv.png" width="40%" height style="float: center">
 
 V:
 ## TRANSPORTE
@@ -205,32 +205,33 @@ V:
 
 ### Hyperledger Fabric
 
-Hyperledger Fabric is a blockchain framework implementation and one of the Hyperledger projects hosted by The Linux Foundation. It uses the Go programming language 1.7.x for many of its components.
+Permite que los componentes, como el consenso y los servicios de membresía, sean un ‘plug-and-play’ (conectar y usar). Además, aprovecha la tecnología para alojar contratos inteligentes llamados “chaincode”, que comprenden la lógica de aplicación del sistema. Hyperledger.
 
+<a href="https://www.criptonoticias.com/adopcion/hyperledger-project-consorcio-codigo-abierto-blockchain-empresarial/" target="_blank"><img src="src/fabric.png" width="40%" height style="float: top">
 
 V:
 
 ### Hyperledger Composer
 <img src="src/composer.png" alt="3d scaling" width="20%" style="float: center">
 
-
-Hyperledger Composer is an application development framework which simplifies and expedites the creation of Hyperledger fabric blockchain applications.  
+Es una herramienta de colaboración para construir redes comerciales de blockchain, acelerando el desarrollo de contratos inteligentes y su implementación en un ‘ledger’ distribuido. Está construida con JavaScript, aprovechando herramientas modernas como node.js, npm,y CLI.  
 
 V:
 ### IBM BLockchain - Hyperledger
 
 <img src="src/ibmblockchainhyperledger.png" alt="3d scaling" width="40%" style="float: center">
 
- IBM provides blockchain solutions and services leveraging Hyperledger technologies, including Hyperledger Fabric and Hyperledger Composer.
+IBM provee soluciones y servicios de Blockchain en conjunto con hyperledger, incluyendo Fabric y Composer
+
 V:
-### Blockchain for business
+### Blockchain para negocios
 
 <iframe width="800" height="600" src="https://www.youtube.com/embed/EKa5Gh9whgU" frameborder="0" allowfullscreen></iframe>
 
 
 
 V:
-### Must-Read Links
+### Enlaces de interés
 
 * <a href="https://www.bbva.com/es/bbva-se-une-hyperledger-la-principal-comunidad-open-source-blockchain/" target="_blank">BBVA joins Hyperledger</a>
 * <a href="https://cointelegraph.com/news/oracle-officially-joins-hyperledger-blockchain-project" target="_blank">Oracle Officially Joins Hyperledger Blockchain Project
@@ -242,37 +243,37 @@ V:
 H:
 
 
-# 3. Smart Contracts
+# 3. Contratos Inteligentes
 
 V:
-### What is a Smart Contract?
+### ¿Qué es un contrato Inteligente?
 
 <img src="src/contract.jpg" alt="3d scaling" width="40%" style="float: center">
 
-Is a computer program that directly controls the transfer of digital currencies or assets between parties under certain conditions.
+
+Son contratos digitales programados para que se cumplan de forma automática una vez que las partes han acordado los términos, controlan directamente las transferencias.
 
 V:
-### How a Smart Contract works?
+### Cómo funcionan los contratos inteligentes?
 <img src="src/smart_contracts.jpg" alt="3d scaling" width="60%" style="float: center">
 
 V:
-### putting it all together
+### Poniendolo todo junto
 <iframe width="800" height="600" src="https://www.youtube.com/embed/FkeLDPZ-v8g" frameborder="0" allowfullscreen></iframe>
 
-V:
-### Must-Read Links
+V:Enlaces de Interés
 * <a href="https://blockgeeks.com/guides/smart-contracts/" target="_blank">A Beginner’s Guide to Smart Contracts</a>
 * <a href="https://www.coindesk.com/information/ethereum-smart-contracts-work/" target="_blank">How Do Ethereum Smart Contracts Work?</a>
 * <a href="https://www.adjoint.io/posts/financial-industry-revolution.html" target="_blank">Smart Contracts - A revolution in the Financial industry</a>
 
 
 H:
-# 4. FIGHTING CORRUPTION WITH BLOCKCHAIN
-V:
-### Supply Chain
+# 4. MITIGANDO LA corrupción con blockchain
 
-Is difficult for consumers to know whether some parts of the products were produced
-by illegal child labour, or within a country where conflicting mineral issues occur. Such a lack of transparency in the supply chain or logistics becomes more critical when it comes topharmaceutical or medical industries in which illegale or fraud medications can lead to fatal consequences.
+V: Cadenas de Suministro
+
+Llega a ser dificil para los clientes saber de donde vienen exactamente los productos que adquieren. Estos pueden venir de la explotación infantil, países en conflicto mineral, u otras irregularidades. Tal falta de transparencia en la logística se vuelve más crítica cuando se trata de industrias médicas o topofarmacéuticas en las que los medicamentos ilegales o fraudulentos pueden traer consecuencias fatales.  
+
 <img src="src/niños.jpg" alt="3d scaling" width="30%" style="float: center">
 
 V:
