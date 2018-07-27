@@ -272,79 +272,98 @@ H:
 
 V: Cadenas de Suministro
 
-Llega a ser dificil para los clientes saber de donde vienen exactamente los productos que adquieren. Estos pueden venir de la explotación infantil, países en conflicto mineral, u otras irregularidades. Tal falta de transparencia en la logística se vuelve más crítica cuando se trata de industrias médicas o topofarmacéuticas en las que los medicamentos ilegales o fraudulentos pueden traer consecuencias fatales.  
+Llega a ser dificil para los clientes saber de donde vienen exactamente los productos que adquieren. Estos pueden venir de la explotación infantil, países en conflicto mineral, u otras irregularidades. Tal falta de transparencia en la logística se vuelve más crítica cuando se trata de industrias médicas o farmacéuticas, en las que los medicamentos ilegales o fraudulentos pueden traer consecuencias fatales.
 
 <img src="src/niños.jpg" alt="3d scaling" width="30%" style="float: center">
 
 V:
-### Supply Chain
+### Cadenas de Suministro
 
-Blockchain technology on supply chain has the potential to increase supply chain transparency for both suppliers and consumer, and improve contractual coordination. The blockchain technology becomes more useful when it combines with the recent IoT technologies such as RFID sensors or QR codes.
+La tecnología Blockchain tiene el potencial de aumentar la transparencia de la cadena de suministro tanto para los proveedores como para el consumidor, y mejorar la coordinación contractual. Blockchain se vuelve más útil cuando se combina con las tecnologías recientes, como sensores RFID o códigos QR.
 
 
 <a href="https://nektardata.com/a-brief-guide-to-understand-the-difference-between-qr-and-rfid-tags/" target="_blank"><img src="src/qr.png" alt="3d scaling" width="50%" style="float: center">
 
 
 V:
-### Public sectors / Government
+### Sectores Públicos / Gobierno
 
-Government and financial institutions can use the technology as a means of combating financial crime such as money laundering and tracking any fund transferred for criminal activities such as drugs trade or terrorism.
+Las instituciones gubernamentales y financieras pueden utilizar la tecnología como un medio para combatir el delito financiero, como el lavado de dinero y rastrear cualquier fondo transferido para actividades delictivas como el tráfico de drogas o el terrorismo.
+
 <img src="src/corruption.png" alt="3d scaling" width="40%" style="float: center">
 
 V:
-### Voting System
+### Sistema De Votación
 
-Elections results may not always reflect the public opinion and it is subject to
-manipulation by a corrupted authority. In such circumstances, the blockchain technology ensures that
-every eligible vote is counted accurately without any manipulation and this can be a huge step
-towards democracy. BLockchain can transform the traditional paper-based voting
-system to a digitalized one.e
+
+Los resultados de las elecciones pueden no reflejar siempre la opinión pública y están sujetos a
+manipulación por una autoridad corrupta. En tales circunstancias, la tecnología blockchain asegura que
+cada voto que se tenga en cuenta, será un voto sin manipulación lo que significará un gran paso hacia la democracia de confianza. Blockchain puede transformar el sistema de votación tradicional en papel a uno digitalizado.
+
+
+
 <img src="src/33.jpg" alt="3d scaling" width="30%" style="float: center">
 
 V:
-### Property & real-estate management
+### Propiedad y Gestión Inmobiliaria
 
-In order to root out the corruptions occurring on land registries, the government of Honduras partnered with a blockchain start-up to develop a system that kept the land record on a transparent and unhackable blockchain platform. This may keep the government officials supervised from abusing their power while encouraging land owners to officially register their lands.
+
+
+Para erradicar la corrupcion que ocurre en los registros de la propiedad, el gobierno de Honduras se asoció con una start-up de blockchain para desarrollar un sistema que mantuviera el registro de la propiedad en una plataforma blockchain transparente. Esto puede evitar que los funcionarios gubernamentales abusen de su poder, además se alienta a los propietarios de tierras a registrar oficialmente sus propiedades.
+
 <img src="src/índice.jpg" alt="3d scaling" width="30%" style="float: up">
 
 V:
-### International Trade
+### Comercio internacional
 
-Paper-based documents between trading parties and banks are subject to manipulation, loss and fraud. Blockchain trading parties can manage the ownership of documents and eliminate
-disputes, forgeries and double-spending risks. Smart contract can log the change of
-ownership and automatically transfer payments for
-efficient and transparent way we trade.
+Los documentos en papel entre las partes comerciales y los bancos están sujetos a manipulación, pérdida y fraude. Las partes comerciales de Blockchain pueden administrar la propiedad de los documentos y eliminar disputas, falsificaciones y riesgos de doble gasto. El contrato inteligente puede registrar el cambio de propiedad y transferir los pagos de forma automática. Una manera eficiente y transparente de negociar.
+
+
 <img src="src/internacional.jpg" alt="3d scaling" width="30%" style="float: down">
 
 
 H:
-# 5. BEING PART OF THE REVOLUTION
+# 5. Siendo parte de la revolución
 V:
 
-### COMMUNITIES
+### Comunidades, Apoyos y programas del gobierno
 
-* Activities to strengthen the community and the actors articulation of the Blockchain and crypto ecosystem in Colombia.
-* Basic training of the Blockchain technology.
-* Be an interlocutor with the national government, offering information and analysis that allows you to make informed decisions for the use of Blockchain technology and cryptocurrencies in Colombia
 
-<a href="https://fundacionblockchaincolombia.org/" target="_blank"><img src="src/bcol.png" alt="3d scaling" width="60%" style="float: center">
+* Actividades para fortalecer la comunidad y la articulación de los actores de Blockchain y criptoecología en Colombia.
+* Entrenamiento básico de la tecnología Blockchain.
+* Ser un intermediario con el gobierno nacional, ofreciendo información y análisis que le permitan tomar decisiones informadas sobre el uso de la tecnología Blockchain y las criptomonedas en Colombia
 
+
+
+
+<a href="https://fundacionblockchaincolombia.org/" target="_blank"><img src="src/bcol.png" alt="3d scaling" width="40%" style="float: center">
 
 V:
+<a href="https://www.colombiafintech.co/post/ministerio-de-las-tic-de-colombia-promueve-programas-gratuitos-de-formacion-en-blockchain" target="_blank"><img src="src/gobiernoo.jpeg" alt="3d scaling" width="40%" style="float: center" >
+
+V:
+
 <a href="https://blockchainacademy.com.co/" target="_blank"><img src="src/bcacademy.jpg" alt="3d scaling" width="40%" style="float: center" >
 
 
+
 V:
-### Events
+### Eventos
 
 <a href="http://col40.co/638/w3-channel.html" target="_blank"><img src="src/col4.jpg" alt="3d scaling" width="60%" style="float: center">
 
 V:
-### Events
+### Eventos
 
 <a href="https://www.meetup.com/topics/blockchain/" target="_blank"><img src="src/meetup.png" alt="3d scaling" width="30%" style="float: center">
 
 
 V:
-### Forums
+### Foros
 <a href="https://bitcointalk.org/" target="_blank"><img src="src/bitcointalk.png" alt="3d scaling" width="20%" style="float: center">
+
+V:
+
+### Hackatones Blockchain
+
+<a href="https://www.colombiafintech.co/calendario/blockchain-challenge-1a-hackathon-blockchain-colombia" target="_blank"><img src="src/hackaton.png" alt="3d scaling" width="60%" style="float: center">
