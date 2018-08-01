@@ -367,3 +367,13 @@ V:
 ### Hackatones Blockchain
 
 <a href="https://www.colombiafintech.co/calendario/blockchain-challenge-1a-hackathon-blockchain-colombia" target="_blank"><img src="src/hackaton.png" alt="3d scaling" width="60%" style="float: center">
+
+
+V:
+
+### Vivelab
+
+El ViveLab es un importante recurso y aliado público en temas de Blockchain e innovación.
+Es parte de varios proyectos en Colombia que implementan Blockchain y constantemente hacen charlas y talleres a los que se puede asistir gratuitamente.
+
+<a href="https://www.facebook.com/ViveLabBogota/videos/2000552226635471/" target="_blank"><img src="src/dummies.jpg" alt="3d scaling" width="55%" style="float: center">
