@@ -314,6 +314,11 @@ Para erradicar la corrupcion que ocurre en los registros de la propiedad, el gob
 <img src="src/índice.jpg" alt="3d scaling" width="30%" style="float: up">
 
 V:
+### Propiedad y Gestión Inmobiliaria
+
+<a href="https://www.criptonoticias.com/innovaciones/gobierno-colombia-presenta-piloto-registro-tierras-ethereum/" target="_blank"><img src="src/tierras.jpg" alt="3d scaling" width="70%" style="float: center" >
+
+V:
 ### Comercio internacional
 
 Los documentos en papel entre las partes comerciales y los bancos están sujetos a manipulación, pérdida y fraude. Las partes comerciales de Blockchain pueden administrar la propiedad de los documentos y eliminar disputas, falsificaciones y riesgos de doble gasto. El contrato inteligente puede registrar el cambio de propiedad y transferir los pagos de forma automática. Una manera eficiente y transparente de negociar.
